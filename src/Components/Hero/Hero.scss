@@ -123,15 +123,21 @@ section {
   }
 }
 
-@media (max-width: 390px) {
-  section {
-    width: 100%;
-    .hero-col {
-      .col1 {
-        h1 {
-          font-size: 4rem;
+@media(max-width:550px) {
+    section{
+      .hero-col{
+        .col1{
+          width: auto;
+          h1{
+            font-size: 2.5rem;
+          }
         }
       }
     }
+}
+
+@media (max-width: 390px) {
+  section {
+    width: 100%;
   }
 }

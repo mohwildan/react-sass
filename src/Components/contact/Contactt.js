@@ -23,7 +23,7 @@ function Contactt() {
         </div>
         <div className="message">
             <h1>Message <span>*</span></h1>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
         </div>
         <div className="btn">
         <button>Send message</button>
