@@ -1,0 +1,80 @@
+section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 7rem;
+  background-color: #fff;
+  padding: 2rem;
+  .contact-contatiner {
+    display: flex;
+    flex-direction: column;
+    box-shadow: -3px 3px 1px rgba($color: #000000, $alpha: .1);
+    border: 1px solid rgba(73, 73, 73,.1);
+    padding: 2rem;
+
+    .name {
+      display: flex;
+      h1{
+          margin-bottom: 1rem;
+      }
+      input {
+        padding-right: 2rem;
+      }
+    }
+    .email {
+      h1{
+          margin-bottom: 1rem;
+      }
+      input {
+        width: 98%;
+      }
+    }
+    .message {
+        h1{
+            margin-bottom: 1rem;
+        }
+      textarea {
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+        width: 100%;
+        resize: none;
+      }
+    }
+  }
+  .btn {
+    button {
+      border: none;
+      background-color: #00cffd;
+      padding: 0.5rem 2rem;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      &:hover {
+        background-color: #485ec0;
+      }
+    }
+  }
+}
+
+input {
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: #fff;
+  width: 95%;
+  height: 50px;
+  color: rgb(73, 73, 73);
+}
+
+span {
+  color: red;
+}
+
+@media (max-width: 566px) {
+  section {
+    .contact-contatiner {
+      .name {
+        display: block;
+      }
+    }
+  }
+}
