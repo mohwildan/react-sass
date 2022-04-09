@@ -1,5 +1,4 @@
 section {
-  width: 80%;
   margin: 0 auto;
   margin-top: 7rem;
   background-color: #fff;
@@ -73,6 +72,11 @@ span {
     .contact-contatiner {
       .name {
         display: block;
+      }
+      .email{
+        input{
+          width: 100%;
+        }
       }
     }
   }
